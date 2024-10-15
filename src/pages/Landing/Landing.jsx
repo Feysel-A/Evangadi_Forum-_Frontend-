@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./landing.module.css";
 import Login from "../../components/Login/Login"
-import SignUp from "../../Components/SignUp/SignUp";
+import SignUp from "../../Components/Signup/Signup";
 import About from "../../Components/About/About";
 function Landing() {
   const [show,setShow]=useState(false)
